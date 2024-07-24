@@ -15,7 +15,7 @@ def home(request):
     """ This is the page for requesting the transaction"""
     cleaned_data = {'key': settings.PAYU_INFO['merchant_key'], 
                     'txnid': "asas123", 'amount': 5000, 'productinfo': "sample_produ",
-                    'firstname':"renjith", 'email': "renjithsraj@live.com", 'udf1': '', 
+                    'firstname':"renjith", 'email': "re@gmail.com", 'udf1': '', 
                     'udf2': '', 'udf3': '', 'udf4': '', 'udf5': '', 'udf6': '', 'udf7': '', 
                     'udf8': '', 'udf9': '', 'udf10': ''
                     }
@@ -58,7 +58,7 @@ def home(request):
                     """ % (settings.PAYU_INFO['payment_url'],
                                  "renjith", 
                                  settings.PAYU_INFO['surl'],
-                                 "9746272610",
+                                 "999990000",
                                  settings.PAYU_INFO['merchant_key'],
                                  hash_code,
                                  settings.PAYU_INFO['curl'],
@@ -66,7 +66,7 @@ def home(request):
                                  "asas123",
                                  "sample_produ",
                                  "5000",
-                                 "renjithsraj@live.com"
+                                 "xxxxx@gmail.com"
                                  )
         )
 
